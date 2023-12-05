@@ -1,0 +1,21 @@
+body {
+    font-family: serif;
+}
+
+section {
+    page-break-before: always;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+#media {
+  display:none;
+}
+
+@media print {
+    body {
+        margin: 1cm;
+    }
+}
